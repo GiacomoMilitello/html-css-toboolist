@@ -7,6 +7,9 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(237, 237, 237);
 }
+hr{
+    border-color: rgb(237, 237, 237);
+}
 header{
     background-color: white;
 }
@@ -35,10 +38,11 @@ main{
 nav{
     margin-left: 30px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 button{
-    padding: 6px;
+    padding: 6px 10px;
+
 }
 #blueb{
     background-color: rgb(2, 82, 212);
@@ -73,7 +77,7 @@ button{
     display: inline-block;
 }
 .round{
-    border-radius: 6px;
+    border-radius: 10px;
 }
 .edi{
     background-color: rgb(0, 129, 227);
