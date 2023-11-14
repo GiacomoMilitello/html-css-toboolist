@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: lightgrey;
+}
+header{
+    background-color: white;
+}
+div figure,
+div h1,
+.list{
+    display: inline;
+}
+main{
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+}
+.check{
+    width: 16px;
+    height: 16px;
+    border: 1px solid green;
+    border-radius: 50%;
+    font-size: 12px;
+    color: green;
+    text-align: center;
+    margin-right: 2px;
+}
