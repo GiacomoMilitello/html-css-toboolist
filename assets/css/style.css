@@ -10,14 +10,29 @@ header{
     background-color: white;
 }
 div figure,
-div h1,
-.list{
-    display: inline;
+div h1
+{
+    display: inline-block;
 }
 main{
     background-color: white;
     width: 80%;
-    margin: 20px auto;
+    margin: 40px auto;
+}
+nav{
+}
+button{
+    padding: 6px;
+}
+#blueb{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+#whiteb{
+    background-color: white;
+    color: grey;
+    border-color: grey;
 }
 .check{
     width: 16px;
@@ -28,7 +43,36 @@ main{
     color: green;
     text-align: center;
     margin-right: 2px;
+    display: inline-block;
+}
+.cross{
+    width: 16px;
+    height: 16px;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    margin-right: 2px;
+    display: inline-block;
 }
 .round{
     border-radius: 6px;
+}
+.edi{
+    background-color: lightblue;
+}
+.q1{
+    background-color: purple;
+    paddin
+}
+div span:last-child{
+    padding: 4px;
+}
+div{
+    margin: 15px;
+}
+section,
+nav{
+    margin: 30px;
 }
