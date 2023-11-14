@@ -62,9 +62,23 @@ button{
 .edi{
     background-color: lightblue;
 }
+.goa{
+    background-color: lightpink;
+}
 .q1{
     background-color: purple;
-    paddin
+}
+.rec{
+    background-color: green;
+}
+.mob{
+    background-color: orange;
+}
+.web{
+    background-color: fuchsia;
+}
+.sal{
+    background-color: lightgreen;
 }
 div span:last-child{
     padding: 4px;
