@@ -107,6 +107,6 @@ div{
 section{
     margin: 30px;
 }
-div span:last-child{
+div span:last-child :not(#black){
     color: white;
 }
