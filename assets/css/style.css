@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(237, 237, 237);
 }
 header{
     background-color: white;
@@ -14,10 +15,16 @@ header{
     height: 100px;
     padding-top: 25px;
 }
+h1{
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
 div figure,
 div h1
 {
-    display: inline-block;
+    display: inline;
 }
 main{
     background-color: white;
@@ -36,12 +43,12 @@ button{
 #blueb{
     background-color: rgb(2, 82, 212);
     color: white;
-    border-color: rgb(2, 82, 212);
+    border: 1px solid rgb(2, 82, 212);
 }
 #whiteb{
     background-color: white;
     color: grey;
-    border-color: grey;
+    border: 1px solid grey;
 }
 .check{
     width: 16px;
