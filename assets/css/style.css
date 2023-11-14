@@ -9,6 +9,11 @@ body{
 header{
     background-color: white;
 }
+#logoweb{
+    width: 100%;
+    height: 100px;
+    padding-top: 25px;
+}
 div figure,
 div h1
 {
@@ -18,16 +23,20 @@ main{
     background-color: white;
     width: 80%;
     margin: 40px auto;
+    padding-bottom: 20px;
 }
 nav{
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 button{
     padding: 6px;
 }
 #blueb{
-    background-color: blue;
+    background-color: rgb(2, 82, 212);
     color: white;
-    border-color: blue;
+    border-color: rgb(2, 82, 212);
 }
 #whiteb{
     background-color: white;
@@ -60,25 +69,22 @@ button{
     border-radius: 6px;
 }
 .edi{
-    background-color: lightblue;
+    background-color: rgb(0, 129, 227);
 }
 .goa{
-    background-color: lightpink;
-}
-.q1{
-    background-color: purple;
+    background-color: rgb(155, 53, 219);
 }
 .rec{
-    background-color: green;
+    background-color: rgb(91, 168, 119);
 }
 .mob{
-    background-color: orange;
+    background-color: rgb(255, 140, 0);
 }
 .web{
-    background-color: fuchsia;
+    background-color: rgb(255, 122, 171);
 }
 .sal{
-    background-color: lightgreen;
+    background-color: rgb(172, 232, 132);
 }
 div span:last-child{
     padding: 4px;
@@ -86,7 +92,9 @@ div span:last-child{
 div{
     margin: 15px;
 }
-section,
-nav{
+section{
     margin: 30px;
+}
+div span:last-child{
+    color: white;
 }
